@@ -124,7 +124,7 @@ export function renderQuotaWithAmount(amount) {
 }
 
 export function renderQuota(quota, digits = 2) {
-  let quotaPerUnit = 500000;
+  let quotaPerUnit = 1;
   return '$' + (quota / quotaPerUnit).toFixed(digits);
 }
 
